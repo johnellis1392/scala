@@ -1,0 +1,22 @@
+{
+    "name": "ExampleProject",
+    "repository": {
+        "url": "...",
+        "host": "github",
+    },
+    "resolvers": [
+        {
+            "name": "Maven Central",
+            "url": "https://search.maven.org",
+            "searchUrl": {
+                "base": "/solrsearch/select",
+                "params": {
+                    "q": "String",
+                    "rows": "Number",
+                    "wt": ["json"],
+                }
+            }
+        }
+    ],
+    "dependencies": [],
+}
